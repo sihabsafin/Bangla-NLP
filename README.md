@@ -1,1 +1,1 @@
-# r-Bangla-Chittagonian-Dialect-Translation-Using-NLP
+# Bangla-Chittagonian-Dialect-Translation-Using-NLP
