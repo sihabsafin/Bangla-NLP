@@ -1,0 +1,111 @@
+{
+  "best_metric": 1.3522007066057995e-05,
+  "best_model_checkpoint": "/content/drive/MyDrive/Thesis_Sihabul_Islam_Safin/outputs/qwen/chittagonian_model/checkpoint-100",
+  "epoch": 1.0,
+  "eval_steps": 500,
+  "global_step": 100,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.1,
+      "grad_norm": 0.8491560220718384,
+      "learning_rate": 0.00019979028262377118,
+      "loss": 0.7655,
+      "step": 10
+    },
+    {
+      "epoch": 0.2,
+      "grad_norm": 0.009308318607509136,
+      "learning_rate": 0.00019744105246469263,
+      "loss": 0.0301,
+      "step": 20
+    },
+    {
+      "epoch": 0.3,
+      "grad_norm": 0.002641953993588686,
+      "learning_rate": 0.00019254212296427044,
+      "loss": 0.0002,
+      "step": 30
+    },
+    {
+      "epoch": 0.4,
+      "grad_norm": 0.0010519216302782297,
+      "learning_rate": 0.00018522168236559695,
+      "loss": 0.0001,
+      "step": 40
+    },
+    {
+      "epoch": 0.5,
+      "grad_norm": 0.00039687668322585523,
+      "learning_rate": 0.00017567128158176953,
+      "loss": 0.0,
+      "step": 50
+    },
+    {
+      "epoch": 0.6,
+      "grad_norm": 0.0002650466049090028,
+      "learning_rate": 0.000164140821963114,
+      "loss": 0.0,
+      "step": 60
+    },
+    {
+      "epoch": 0.7,
+      "grad_norm": 0.00020939750538673252,
+      "learning_rate": 0.00015093201623287631,
+      "loss": 0.0,
+      "step": 70
+    },
+    {
+      "epoch": 0.8,
+      "grad_norm": 0.00016969480202533305,
+      "learning_rate": 0.00013639049369634876,
+      "loss": 0.0,
+      "step": 80
+    },
+    {
+      "epoch": 0.9,
+      "grad_norm": 0.00015570524556096643,
+      "learning_rate": 0.00012089675630312754,
+      "loss": 0.0,
+      "step": 90
+    },
+    {
+      "epoch": 1.0,
+      "grad_norm": 0.0001292611559620127,
+      "learning_rate": 0.00010485622221144484,
+      "loss": 0.0,
+      "step": 100
+    },
+    {
+      "epoch": 1.0,
+      "eval_loss": 1.3522007066057995e-05,
+      "eval_runtime": 34.5733,
+      "eval_samples_per_second": 2.892,
+      "eval_steps_per_second": 2.892,
+      "step": 100
+    }
+  ],
+  "logging_steps": 10,
+  "max_steps": 200,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 2,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": false
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 3446424364646400.0,
+  "train_batch_size": 1,
+  "trial_name": null,
+  "trial_params": null
+}
