@@ -1,0 +1,10 @@
+{
+  "model": "meta-llama/Llama-3.2-3B-Instruct",
+  "scores": {
+    "BLEU": 0.2712,
+    "chrF++": 14.228,
+    "ROUGE-1": 0.0,
+    "ROUGE-2": 0.0,
+    "ROUGE-L": 0.0
+  }
+}

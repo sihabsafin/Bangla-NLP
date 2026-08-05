@@ -1,0 +1,11 @@
+{
+  "model_name": "google/gemma-2b-it",
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj"
+  ]
+}
