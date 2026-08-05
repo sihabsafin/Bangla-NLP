@@ -1,0 +1,4 @@
+Model,BLEU,chrF++,ROUGE-1,ROUGE-2,ROUGE-L
+Model A - Qwen2.5,0.4179,12.7246,0.0,0.0,0.0
+Model B - Gemma-2B-IT,0.2712,14.228,0.0,0.0,0.0
+Model C - Llama-3.2-3B-Instruct,0.3755,16.8909,0.0,0.0,0.0
