@@ -112,7 +112,7 @@ All three models were trained and evaluated on the identical dataset split and Q
 | **Llama-3.2-3B-Instruct** 🥇 | 0.3755 | **16.89** | 0.0 | 0.0 | 0.0 |
 
 <div align="center">
-<img src="assets/model_comparison.png" alt="Model comparison bar chart across BLEU, chrF++, and ROUGE metrics" width="700"/>
+<img src="outputs/comparison/model_comparison.png" alt="Model comparison bar chart across BLEU, chrF++, and ROUGE metrics" width="700"/>
 </div>
 
 **Key observations:**
