@@ -1,0 +1,30 @@
+{
+  "best_model": "Gemma-2B-IT",
+  "best_average_score": 3.9092,
+  "models": [
+    {
+      "Model": "Qwen2.5-3B",
+      "BLEU": 0.3518,
+      "chrF++": 11.9757,
+      "ROUGE-1": 0.0,
+      "ROUGE-2": 0.0,
+      "ROUGE-L": 0.0
+    },
+    {
+      "Model": "Gemma-2B-IT",
+      "BLEU": 1.3491,
+      "chrF++": 18.1971,
+      "ROUGE-1": 0.0,
+      "ROUGE-2": 0.0,
+      "ROUGE-L": 0.0
+    },
+    {
+      "Model": "LLaMA-3.2-3B",
+      "BLEU": 0.3755,
+      "chrF++": 16.8909,
+      "ROUGE-1": 0.0,
+      "ROUGE-2": 0.0,
+      "ROUGE-L": 0.0
+    }
+  ]
+}
