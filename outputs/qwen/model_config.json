@@ -1,0 +1,32 @@
+{
+  "model_name": "Qwen/Qwen2.5-3B-Instruct",
+  "load_in_4bit": true,
+  "quant_type": "nf4",
+  "compute_dtype": "float16",
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "lora_bias": "none",
+  "max_seq_length": 256,
+  "max_train_samples": 800,
+  "max_eval_samples": 100,
+  "num_epochs": 2,
+  "batch_size": 1,
+  "grad_accumulation": 8,
+  "learning_rate": 0.0002,
+  "warmup_ratio": 0.03,
+  "output_dir": "/content/drive/MyDrive/Thesis_Sihabul_Islam_Safin/outputs/qwen/chittagonian_model",
+  "device": "cuda",
+  "lora_target_modules": [
+    "down_proj",
+    "gate_proj",
+    "k_proj",
+    "o_proj",
+    "q_proj",
+    "up_proj",
+    "v_proj"
+  ],
+  "total_params": 1728606208,
+  "lora_trainable_params": 29933568,
+  "trainable_pct": 1.731659174973876
+}

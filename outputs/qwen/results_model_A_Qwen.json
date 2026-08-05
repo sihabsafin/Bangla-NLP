@@ -1,0 +1,25 @@
+{
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "test_rows_evaluated": 50,
+  "scores": {
+    "BLEU": 0.4179,
+    "chrF++": 12.7246,
+    "ROUGE-1": 0.0,
+    "ROUGE-2": 0.0,
+    "ROUGE-L": 0.0
+  },
+  "per_sentence_stats": {
+    "bleu_mean": 1.2117,
+    "bleu_median": 0.0,
+    "chrf_mean": 12.4838,
+    "chrf_median": 11.2798
+  },
+  "interpretation": {
+    "BLEU": "Poor — check training",
+    "chrF++": "Needs improvement"
+  },
+  "lora_config": {
+    "r": 16,
+    "alpha": 32
+  }
+}
